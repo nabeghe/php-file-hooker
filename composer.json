@@ -1,0 +1,30 @@
+{
+  "name": "nabeghe/file-hooker",
+  "description": "Hooking System based on files.",
+  "type": "library",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nabeghe/php-file-hooker",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Nabeghe\\FileHooker\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Hadi Akbarzadeh",
+      "email": "HadiCoder@gmail.com",
+      "homepage": "https://ElaTel.IR",
+      "role": "Developer"
+    }
+  ],
+  "scripts": {
+    "test": "vendor/bin/phpunit tests"
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  }
+}
