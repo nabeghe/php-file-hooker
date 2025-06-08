@@ -1,5 +1,10 @@
 # File Hooker for PHP
 
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/bb4bee9b-66c5-4109-ad9c-723c1afe6ddb" width="400"/>
+</p>
+
+
 > A simple Hooking System based on files.
 > This means that each callback is located in a PHP file.
 
