@@ -12,8 +12,9 @@ final class HookerTest extends TestCase
     public function __construct(?string $name = null, array $data = [], $dataName = '')
     {
         $this->angler = new stdClass();
-        $this->hooker = new FileHooker($this->angler);
+        $this->hooker = new FileHooker($this->angler, true);
         $this->hooker->add(__DIR__.'/hooks');
+
         parent::__construct($name, $data, $dataName);
     }
 
@@ -27,6 +28,7 @@ final class HookerTest extends TestCase
     public function testDoThrow(): void
     {
         $error_message = 'This is error';
+
         try {
             $this->hooker->action('do_throw', ['message' => $error_message]);
         } catch (Exception $ex) {

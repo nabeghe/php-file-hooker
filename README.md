@@ -33,7 +33,7 @@ use Nabeghe\FileHooker\FileHooker;
 
 // This is a custom object called angler. It is sent as the second argument to the callbacks.
 $angler = new stdClass();
-$angler = new FileHooker($angler);
+$hooker = new FileHooker($angler);
 
 // Add a new path where the hooks are located.
 $hooker->add(__DIR__.'/hooks');
