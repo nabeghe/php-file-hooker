@@ -74,6 +74,4 @@ return function ($data, $angler) {
 
 ## 📖 License
 
-Copyright (c) 2024 Hadi Akbarzadeh
-
 Licensed under the MIT license, see [LICENSE.md](LICENSE.md) for details.

@@ -1,14 +1,10 @@
 {
   "name": "nabeghe/file-hooker",
   "description": "Hooking system based on files.",
+  "keywords": ["action", "event", "event system", "filter", "hook", "hook system", "hooker"],
   "type": "library",
   "homepage": "https://github.com/nabeghe/php-file-hooker",
   "license": "MIT",
-  "autoload": {
-    "psr-4": {
-      "Nabeghe\\FileHooker\\": "src/"
-    }
-  },
   "authors": [
     {
       "name": "Hadi Akbarzadeh",
@@ -17,6 +13,11 @@
       "role": "Developer"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "Nabeghe\\FileHooker\\": "src/"
+    }
+  },
   "scripts": {
     "test": "vendor/bin/phpunit tests"
   },
